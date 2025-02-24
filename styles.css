@@ -1,0 +1,74 @@
+/* Барлық беттің негізгі стилі */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Бас тақырып (header) */
+header {
+    background-color: #0044cc;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Навигация (menu) */
+nav {
+    background-color: #002266;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    width: 120px;
+    text-align: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px;
+}
+
+/* Негізгі контент (main) */
+main {
+    background-color: white;
+    font-size: 18px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Аяқтау бөлігі (footer) */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+/* Бас тақырыпша (h1) */
+h1 {
+    text-align: center;
+    font-family: 'Georgia', serif;
+    color: #222;
+}
+
+/* Параграфтар (p) */
+p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
